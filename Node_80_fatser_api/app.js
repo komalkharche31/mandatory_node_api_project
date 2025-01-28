@@ -72,8 +72,9 @@ async function generateProducts(count = 10) {
             updatedAt: new Date(faker.date.recent()),
         };  
         products.push(newProduct) 
+        console.log('Add Record');
     }
     await Product.create(products)
     console.log('Check DB');
 }
-//generateProducts(50)  //for creating sample product
+generateProducts(10)  //for creating sample product

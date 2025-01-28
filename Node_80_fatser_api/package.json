@@ -5,7 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js",
+    "start":"node app.js",
     "end": "nodemon app.js"
   },
   "repository": {
@@ -21,12 +21,10 @@
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "faker": "^5.5.3",
     "mongoose": "^8.9.5",
-    "morgan": "^1.10.0",
-    "node-cache": "^5.1.2"
+    "morgan": "^1.10.0"
   },
-  "devDependencies": {
-    "@faker-js/faker": "^9.4.0"
+  "devDependencies": {    
+    "@faker-js/faker": "^9.4.0" 
   }
 }

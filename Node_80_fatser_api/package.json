@@ -1,0 +1,32 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "80 percetage faster node api example",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "end": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komalkharche31/NodeCache.git"
+  },
+  "author": "Komal Kharche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/komalkharche31/NodeCache/issues"
+  },
+  "homepage": "https://github.com/komalkharche31/NodeCache#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "faker": "^5.5.3",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.4.0"
+  }
+}
